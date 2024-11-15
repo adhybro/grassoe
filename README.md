@@ -6,3 +6,6 @@ getgrass-bot connects to a specified WebSocket server using both HTTP and SOCKS 
 
 # Register Grass
 https://app.getgrass.io/register/?referralCode=TmqOXFVOjMzXujq
+
+#Installation
+
