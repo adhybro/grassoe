@@ -21,10 +21,41 @@ To install this project, follow these steps:
     source grassoe/bin/activate
     pip install -r requirements.txt
     ```
-3. To run the getgrass-bot, execute the following command in your terminal:
-    ```bash
-    python3 main.py
-    ```
+
+   ## Usage
+
+1. Obtain your user ID from the Getgrass website:
+
+   - Visit [https://app.getgrass.io/dashboard](https://app.getgrass.io/register/?referralCode=TmqOXFVOjMzXujq).
+   - Open your browser's developer tools (usually by pressing F12 or right-clicking and selecting "Inspect").
+   - Go to the "Console" tab.
+   - Paste the following command and press Enter:
+
+     ```javascript
+     localStorage.getItem('userId');
+     ```
+
+   - Copy the value returned, which is your user ID.
+
+2. Create a file named `uid.txt` in the project directory and list your user IDs, each on a new line, like so:
+
+   ```text
+   1234567890
+   ```
+
+3. To specify proxies, create a file named `proxy.txt` in the project directory and add your desired proxy URLs, following the same new-line >
+
+   ```text
+   http://username:password@hostname:port
+   socks5://username:password@hostname:port
+   ```
+
+4. To run the `getgrass`, execute the following command in your terminal:
+
+   ```bash
+   python3 main.py
+   ```
+
 
    
 
