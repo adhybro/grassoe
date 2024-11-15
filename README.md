@@ -7,5 +7,25 @@ getgrass-bot connects to a specified WebSocket server using both HTTP and SOCKS 
 # Register Grass
 https://app.getgrass.io/register/?referralCode=TmqOXFVOjMzXujq
 
-# Installation
+## Installation
+
+To install this project, follow these steps:
+
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/adhybro/grassoe.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    python3 -m venv grassoe
+    source grassoe/bin/activate
+    pip install -r requirements.txt
+    ```
+3. To run the getgrass-bot, execute the following command in your terminal:
+    ```bash
+    python3 main.py
+    ```
+
+   
+
 
